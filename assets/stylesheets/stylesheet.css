@@ -1,0 +1,5 @@
+/* Universal selector to remove default margin and padding on page */
+*{
+    margin: 0;
+    padding: 0;
+}
