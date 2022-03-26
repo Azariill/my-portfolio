@@ -9,6 +9,11 @@
 body{
     background-color: black;
     font-family:  Tahoma, sans-serif;
+}
+
+
+/* PUT SECTION CONTAINER AROUND MAIN CONTENT NAME - MAIN CONTENT */
+.main-body{
     display: flex;
     flex-direction: column;
     border: 10px solid green;
@@ -50,7 +55,7 @@ header a{
 /* Main Section / About me */
 
 .hero-section{
-    flex: 0 0 5%;
+    flex: 1 0 ;
     display: flex;
     border: 5px solid pink;
 }
@@ -92,7 +97,7 @@ header a{
 }
 
 .my-projects{
-    flex: 0 0 60%;
+    flex: 4 0;
 }
 
 .my-projects img{
