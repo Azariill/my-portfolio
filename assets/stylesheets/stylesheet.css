@@ -2,4 +2,100 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+    font-family:  Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid green;
+}
+header{
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(161, 161, 161, 0.3));
+    padding: 10px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1{
+    flex: 0 0 30%;
+}
+
+header nav{
+    flex: 0 0 70%;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 26px;
+    padding-top: 3px;
+   
+}
+
+header a{
+    text-decoration: none;
+}
+
+/* Main Section / About me */
+
+.hero-section{
+    flex: 0 0 5%;
+    display: flex;
+    border: 5px solid pink;
+}
+.hero-content{
+    flex: 0 0 70%;
+}
+
+.hero-content h2{
+    font-size: 58px;
+}
+
+.hero-content p{
+    font-size: 28px;
+}
+
+.content-div-test{
+    display: flex;
+    margin-top: 25%;
+    border: 4px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+    
+
+    flex: 0 0 30%;
+    
+    
+}
+
+.my-image img{
+    height: 55%;
+    
+}
+
+.my-projects{
+    flex: 0 0 60%;
+}
+
+.my-projects img{
+    height: 5%;
+    width: 5%;
 }
