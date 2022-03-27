@@ -42,3 +42,41 @@
 }
 
 /* end of main content code*/
+
+/* Header | Main navbar code */
+
+header{
+    padding: 15px 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
