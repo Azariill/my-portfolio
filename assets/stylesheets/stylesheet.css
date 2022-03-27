@@ -6,101 +6,39 @@
     color: white;
 }
 
-body{
-    background-color: black;
-    font-family:  Tahoma, sans-serif;
-}
+/* Main hero content code */
 
 
-/* PUT SECTION CONTAINER AROUND MAIN CONTENT NAME - MAIN CONTENT */
-.main-body{
-    display: flex;
-    flex-direction: column;
-    border: 10px solid green;
-}
-header{
-    display: flex;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(161, 161, 161, 0.3));
-    padding: 10px 35px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-}
-
-header h1{
-    flex: 0 0 30%;
-}
-
-header nav{
-    flex: 0 0 70%;
-}
-header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-size: 26px;
-    padding-top: 3px;
-   
-}
-
-header a{
-    text-decoration: none;
-}
-
-/* Main Section / About me */
-
+/*sets hero section to flex and background color */
 .hero-section{
-    flex: 1 0 ;
+    background-color: black;
     display: flex;
-    border: 5px solid pink;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.hero-content{
-    flex: 0 0 70%;
+/* Ajust Image Size and Margin */
+.hero-section img{
+    width: 55%;
+    margin: 35% 0;
 }
-
+/*Adjust Hero h2 size and margin */
 .hero-content h2{
-    font-size: 58px;
+    font-size: 450%;
+    margin-bottom: 2%;
 }
-
+/*Creates underline under main h2 */
+.hero-content h2::after{
+    content: "";
+    display: block;
+    border: .5px solid white;
+    margin: 0 8%;
+    opacity: .3;
+}
+/*main content paragraph */
 .hero-content p{
     font-size: 28px;
+    margin-left: 100px;
 }
 
-.content-div-test{
-    display: flex;
-    margin-top: 25%;
-    border: 4px solid red;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.my-image{
-   display: flex;
-   justify-content: left;
-   align-items: center;
-    
-
-    flex: 0 0 30%;
-    
-    
-}
-
-.my-image img{
-    height: 55%;
-    
-}
-
-.my-projects{
-    flex: 4 0;
-}
-
-.my-projects img{
-    height: 5%;
-    width: 5%;
-}
+/* end of main content code*/
