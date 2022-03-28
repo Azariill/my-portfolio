@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     color: rgba(243, 7, 7, 0.918);
-    flex-skrink: 2;
+    
 }
 
 /* Main hero content code */
@@ -25,14 +25,14 @@
 
 /* Ajust Image Size and Margin */
 .hero-section img{
-    width: 250%;
+    width: 55%;
     margin: 65% auto;
     
 }
 /*Adjust Hero h2 size and margin */
 .hero-content h2{
-    font-size: 1500%;
-    margin-bottom: 3%;
+    font-size: 450%;
+    margin-bottom: 2%;
 }
 /*Creates underline under main h2 */
 .hero-content h2::after{
@@ -44,8 +44,8 @@
 }
 /*main content paragraph */
 .hero-content p{
-    font-size: 100px;
-    margin-left: 12%;
+    font-size: 28px;
+    margin-left: 100px;
 }
 
 /* end of main content code*/
@@ -53,7 +53,7 @@
 /* Header | Main navbar code */
 
 header{
-    padding: 30px 50px;
+    padding: 15px 20px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@ header{
 }
 
 header h1{
-    font-size: 100px;
+    font-size: 50px;
 }
 header nav{
     margin: 7px 0;
@@ -78,9 +78,9 @@ header nav ul{
 }
 
 header nav ul li a {
-    padding: 10px 60px;
+    padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 1.55vw;
     text-shadow: 0 0 10px rgb(0 0 0 / 50%);
 }
 
@@ -95,9 +95,9 @@ header a {
 
 
 .my-projects-section h2{
-    font-size: 250px;
-    margin-left: 38%;
-    margin-top: 3%;
+    font-size: 50px;
+    margin-left: 48%;
+    margin-top: 2%;
     margin-bottom: 3%;
    
     
