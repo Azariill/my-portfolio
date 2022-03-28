@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: rgba(243, 7, 7, 0.918);
 }
 
 /* Main hero content code */
@@ -77,6 +77,60 @@ header a {
     color: white;
     text-decoration: none;
 }
+
+/* Project section code */
+
+
+
+
+.my-projects h2{
+    font-size: 50px;
+    margin-left: 48%;
+    margin-top: 2%;
+    
+}
+.projects-flex{
+    display:flex;
+    flex-direction: row;
+    flex:0 0 33%;
+    
+
+}
+
+
+.my-projects h2{
+    font-size: 50px;
+    margin-left: 48%;
+    margin-top: 2%;
+    
+}
+
+.run-buddy-flex{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+   
+    
+}
+
+.run-buddy-flex h3{
+    font-size: 35px;
+    margin-left: 5%;
+}
+
+.run-bud-img img{
+    flex: 50%;
+    width:100%;
+    height: 40%;
+}
+
+.my-projects-section h2{
+    font-size: 250%;
+    margin-left: 48%;
+    margin-top: 1%;
+    
+}
+
 
 
 
