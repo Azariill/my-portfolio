@@ -97,39 +97,36 @@ header a {
 
 }
 
-
-.my-projects h2{
-    font-size: 50px;
-    margin-left: 48%;
-    margin-top: 2%;
-    
+.my-projects-flex{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .run-buddy-flex{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-   
-    
+    margin: 20px;
+    flex: 1;
 }
 
-.run-buddy-flex h3{
-    font-size: 35px;
-    margin-left: 5%;
+.robot-card-flex{
+    margin: 20px;
+    flex: 1;
 }
 
-.run-bud-img img{
-    flex: 50%;
-    width:100%;
-    height: 40%;
+.run-buddy-flex img{
+    width: 100%;
 }
 
-.my-projects-section h2{
-    font-size: 250%;
-    margin-left: 48%;
-    margin-top: 1%;
-    
+.robot-card-flex img{
+    width: 100%;
+    height: 50%;
 }
+
+
+
+
 
 
 
