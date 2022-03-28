@@ -7,50 +7,79 @@
     <link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
     <title>Scott's Portfolio</title>
 </head>
-<header>
-    <!-- Main Header -->
-        <h1>Scott's Portfolio</h1>
-    <!-- Nav Bar -->
-        <nav>
-            <ul>
-                <li><a href="">My Work</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Place Holder</a></li>
-                <li><a href="">Contact Me</a></li>
-            </ul>
-      
-    </div>
-</header>
 <!-- Main Body -->
-<body class="main-body">
+<body>
+    <!-- Nav bar / main header code-->
+    <header>
+        <!-- Main Header -->
+            <h1>Scott's Portfolio</h1>
+        <!-- Nav Bar -->
+            <nav>
+                <ul>
+                    <li><a href="">My Work</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Place Holder</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+          
+        </div>
+    </header>
+    <!-- End of Nav bar / header-->
+
     <!-- Jumbotron/hero-->
     <section class="hero-section">
+
+        
         <div class="hero-content">
-            <div class ="content-div-test">
+            
             <h2>Welcome to my Portfolio</h2>
             <p>Full Stack Web Developer located in Austin Texas.</p>
             </div>
         </div>
+
+
         <div class="my-image">
             <img src="../my-portfolio/assets/images/IMG_2072.jpg" alt="a photo of me in dress clothes">
         </div>
         
     </section>
-    
-    <section class="my-projects">
-        <h2 class="my-projects-heading">My Projects</h2>
-        <div class="Projects">
-            <!-- Run-buddy-card -->
-            <article class="run-buddy-card-img">
-                <a href="https://azariill.github.io/weekone-urban-challenge/"><img src="./assets/images/run-buddy-image.png" alt="photo of my run buddy website"/></a>
-                <div class="run-buddy-card-info">
-                    <h3>Run Buddy Website</h3>
-                </div>
-            </article>
-        </div>
 
-    </section>
+<section class="my-projects-section">
+        <h2>My Projects</h2>
+        <!-- Run-buddy-card -->
+    <div class="my-projects-flex">
+       <article class="run-buddy-flex">
 
+           <div class="run-buddy-card-info">
+               <h3>Run Buddy Website</h3>
+           </div>
+
+           <div class="run-bud-img">
+               <a href="https://azariill.github.io/run-buddy/"><img src="./assets/images/run-buddy-img.png" alt="photo of my run buddy website"/></a>
+           </div>
+
+
+
+       </article>
+       <article class="robot-card-flex">
+           <div class="robot-card">
+               <h3>Robot</h3>
+           </div>
+           <a href="https://azariill.github.io/robot-gladiators/"><img src="../my-portfolio/assets/images/robot-warrior.png" alt="Robot killer Javascript game screen shot"/></a>
+       </article>
+       <article class="robot-card-flex">
+
+           <div class="robot-card">
+               <h3>Robot</h3>
+           </div>
+               <a href="#"><img src="../my-portfolio/assets/images/run-buddy-img.png" alt="photo of my run buddy website"/></a>
+       </article>
+   </div>
+   
+</section>
     
+
+
+  
 </body>
 </html>

@@ -1,95 +1,149 @@
+  
 /* Universal selector to remove default margin and padding on page */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: rgba(243, 7, 7, 0.918);
+    
+}
+
+/* Main hero content code */
+
+
+
+/*sets hero section to flex and background color */
+.hero-section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 8%;
 }
 
 
+/* Ajust Image Size and Margin */
+.hero-section img{
+    width: 55%;
+    margin: 65% auto;
+    
+}
+/*Adjust Hero h2 size and margin */
+.hero-content h2{
+    font-size: 450%;
+    margin-bottom: 2%;
+}
+/*Creates underline under main h2 */
+.hero-content h2::after{
+    content: "";
+    display: block;
+    border: .5px solid white;
+    margin: 0 8%;
+    opacity: .3;
+}
+/*main content paragraph */
+.hero-content p{
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+/* end of main content code*/
+
+/* Header | Main navbar code */
+
 header{
+    padding: 15px 20px;
+    background-color: black;
     display: flex;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(161, 161, 161, 0.3));
-    padding: 10px 35px;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 9999;
 }
 
 header h1{
-    flex: 0 0 30%;
+    font-size: 50px;
+}
+header nav{
+    margin: 7px 0;
 }
 
-header nav{
-    flex: 0 0 70%;
-}
 header nav ul{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    font-size: 26px;
-    padding-top: 3px;
-   
 }
 
-header a{
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+header a {
+    color: white;
     text-decoration: none;
 }
 
-/* Main Section / About me */
+/* Project section code */
 
-.hero-section{
-    flex: 0 0 5%;
-    display: flex;
-    border: 5px solid pink;
-}
-.hero-content{
-    flex: 0 0 70%;
-}
 
-.hero-content h2{
-    font-size: 58px;
-}
 
-.hero-content p{
-    font-size: 28px;
-}
 
-.content-div-test{
-    display: flex;
-    margin-top: 25%;
-    border: 4px solid red;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.my-image{
-   display: flex;
-   justify-content: left;
-   align-items: center;
-    
-
-    flex: 0 0 30%;
-    
+.my-projects-section h2{
+    font-size: 50px;
+    margin-left: 48%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+   
     
 }
+.projects-flex{
+    display:flex;
+    flex-direction: row;
+    flex:0 0 33%;
+    
 
-.my-image img{
-    height: 55%;
+}
+
+.my-projects-flex{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.run-buddy-flex{
+    margin: 20px;
+    flex: 1;
+}
+
+.robot-card-flex{
+    margin: 20px;
+    flex: 1;
+}
+
+.run-buddy-flex img{
+    width: 100%;
+}
+
+.robot-card-flex img{
+    width: 100%;
+    height: 50%;
+}
+article h3{
+    font-size: 150px;
+    background-color: black;
     
 }
 
-.my-projects{
-    flex: 0 0 60%;
-}
 
-.my-projects img{
-    height: 5%;
-    width: 5%;
-}
+
+
+
+
