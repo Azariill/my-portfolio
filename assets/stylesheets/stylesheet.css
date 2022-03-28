@@ -6,13 +6,7 @@
     color: white;
 }
 
-body{
-    background-color: black;
-    font-family:  Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
-    border: 10px solid green;
-}
+
 header{
     display: flex;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(161, 161, 161, 0.3));
