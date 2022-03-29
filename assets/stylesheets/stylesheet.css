@@ -104,9 +104,37 @@ header a {
     margin-left: 41%;
     margin-top: 2%;
     margin-bottom: 3%;  
+    padding-bottom: 0;
+}
+
+.flex-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
 
 
+.boxes{
+    background-color: black;
+    border: 5px solid rgb(255, 181, 181);
+    width: 500px;
+    height: 350px;
+    margin-top: 80px;
+
+}
+.boxes h3{
+    margin-bottom: 10px;
+    font-size: 33px;
+    color: pink;
+    margin-left: 6%;
+}
+
+.boxes img{
+    width: 100%;
+    height: 100%;
+
+}
 
 
 
