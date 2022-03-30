@@ -7,6 +7,9 @@
     
     
 }
+a{ 
+    text-decoration: none;
+}
 
 /* Main hero content code */
 body{
@@ -101,25 +104,57 @@ header a {
 
 
 
-
-.my-projects-section h2{
-    font-size: 50px;
-    margin-left: 41%;
-    margin-top: 2%;
-    margin-bottom: 3%;  
-    padding-bottom: 0;
+/* Projects heading | heading div code */
+.projects-h2{
+    width: 100%;
+    height: 125px;
+    background: rgb(167, 167, 167);
+   
 }
+
+.projects-h2 h2{
+    width: 100%;
+    font-size: 68px;
+    padding-left: 38%;
+    padding-top: 2%;
+    color: rgb(43, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.projects-h2 h2::after{
+    content: "";
+    display: block;
+    border: .5px solid rgb(255, 255, 255);
+    margin-right: 62%;
+    opacity: .3;
+}
+
+/* end of projects heading div code */
 
 .flex-div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 2%;
+   
     
     
 }
 
+.boxes1{
+    flex: 100%;
+    background: black;
+    margin: 10px;
+    margin-bottom: 65px;
+    width: 100%;
+    height: 400px;
+   
 
+
+}
 .boxes{
+    flex: 25%;
     background: black;
     margin: 10px;
     margin-bottom: 65px;
@@ -135,7 +170,7 @@ header a {
     color: rgb(0, 0, 0);
 }
 
-.h3divs h3{
+.h3divsstyle{
     border: 5px solid black;
     background-color: white;
     padding: 5px;
@@ -163,4 +198,34 @@ header a {
 }
 
 
+.h3divs1{
+    padding-top: 12%;
+     margin-left: -2%;
+     width: 100%;
+     font-size: 26px;
+     color: rgb(0, 0, 0);
+ }
 
+/* Contact me section code */
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.about-me p{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 18px;
+    color: white;
+}
+
+.about-me h3{
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.contact-me ul{
+    display: flex;
+    justify-content: space-evenly;
+}
