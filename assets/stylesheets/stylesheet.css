@@ -259,3 +259,151 @@ footer p{
     margin-top: 10px;
     font-size: 28px
 }
+
+
+@media screen and (max-width: 980px){
+
+    .hero-section div{
+        flex: 5%;
+    }
+    .hero-content{
+        display:flex;
+        flex-direction:column;
+        
+     
+    }
+    
+    .hero-content h2{
+        margin-left: 25%;
+        margin-bottom: 10%;
+        font-size: 35px;
+        
+    }
+    .hero-content p{
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .hero-section img{
+        width: 40%;
+    
+    }
+
+    .hero-content h2::after{
+    content: "";
+    display: block;
+    border: .5px solid white;
+    margin: 0 0;
+    opacity: .3;
+}
+    .projects-h2 h2{
+    width: 100%;
+    font-size: 68px;
+    padding-left: 33%;
+    padding-top: 1%;
+    color: rgb(43, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+    .projects-h2 h2::after{
+    content: "";
+    display: block;
+    border: .5px solid rgb(255, 255, 255);
+    margin-right: 48%;
+    opacity: .3;
+}
+    header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+}
+
+@media screen and (max-width: 568px){
+
+
+    
+
+    .hero-content{
+        margin-right: 15%;
+    
+    }
+
+   .hero-content p{
+        margin-left: 50px;
+        
+    }
+    
+    .hero-content h2::after{
+    content: "";
+    display: block;
+    border: .5px solid white;
+    margin: 0 -10px;
+    opacity: .3;
+}
+    .projects-h2 h2{
+    width: 100%;
+    font-size: 68px;
+    padding-left: 19%;
+    padding-top: 1%;
+    color: rgb(43, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+    .projects-h2 h2::after{
+    content: "";
+    display: block;
+    border: .5px solid rgb(255, 255, 255);
+    margin-right: 25%;
+    opacity: .3;
+}
+        header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 17px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+}
+
+@media screen and (max-width: 414px){
+
+    .projects-h2 h2{
+    width: 100%;
+    font-size: 45px;
+    padding-left: 19%;
+    padding-top: 8%;
+    color: rgb(43, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+    .contact-me ul li{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+    
+
+    footer{
+        height: 100px;}
+
+    header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 17px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+      
+
+ 
+
+
+
+}
