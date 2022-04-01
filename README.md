@@ -3,6 +3,7 @@
 ## Project Description
 
 ##Built a personal portfolio page to fit the following requirements
+![Final-Photo](https://user-images.githubusercontent.com/99227667/161198262-b06ebd95-81f7-4ff3-be0c-b5378577d2c6.png)
 
 
 #THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -31,5 +32,5 @@
 
 #THEN I am presented with a responsive layout that adapts to my viewport
 
-![Final-Photo](https://user-images.githubusercontent.com/99227667/161198262-b06ebd95-81f7-4ff3-be0c-b5378577d2c6.png)
+
 
