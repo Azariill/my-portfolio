@@ -1,0 +1,11 @@
+
+:root{
+    --main-bg-color: #5F7161;
+    --secondary-color: #6D8B74;
+    --third-color: #EFEAD8;
+    --fourth-color:#D0C9C0;
+}
+
+nav{
+    background-color: var(--third-color);
+}

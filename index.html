@@ -1,28 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
-    <title>Scott's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/newstyle.css">
+    
+    <title>Scott Heier</title>
 </head>
 <!-- Main Body -->
 <body>
     <!-- Nav bar / main header code-->
     <header>
-        <!-- Main Header -->
-            <h1>Scott's Portfolio</h1>
-        <!-- Nav Bar -->
-            <nav>
-                <ul>
-                    <li><a href="#my-projects">My Projects</a></li>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="">Social Media</a></li>
-                    <li><a href="">Contact Me</a></li>
-                </ul>
-          
-        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Scott Heier</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="#my-projects">My Projects</a>
+                  <a class="nav-link" href="#about-me">About Me</a>
+                  <a class="nav-link" href="#contact-me">Contact Me</a>
+                 
+                </div>
+              </div>
+            </div>
+        </nav>       
     </header>
     <!-- End of Nav bar / header-->
 
@@ -30,7 +37,7 @@
     <section class="hero-section .container-fluid">
 
         
-        <div class="hero-content" id="about-me">
+        <div class="hero-content" >
             
             <h2>Welcome to my Portfolio</h2>
             <p>Full Stack Web Developer located in Austin Texas.</p>
@@ -39,7 +46,7 @@
 
 
         <div class="my-image">
-            <img src="../my-portfolio/assets/images/IMG_2072.jpg" alt="a photo of me in dress clothes">
+            <!-- 1 -->
         </div>
         
     </section>
@@ -53,8 +60,8 @@
     <div class= "flex-div">
         <!-- First Project Run Buddy Website -->
         <article class="boxes1">
-            <a href="https://azariill.github.io/run-buddy/" target="_blank">
-                <div style="background-image: url(../my-portfolio/assets/images/run-buddy-img.png);" class="my-proj-imgs"><div class="h3divs1"><h3 class="h3divsstyle"> My First Project - Run buddy website</h3></div></div>
+            <a href="https://tyestanley.github.io/my-food-planner/" target="_blank">
+                <div style="background-image: url(../my-portfolio/assets/images/screencapture-file-C-Users-Scott-Desktop-projects-test-project-index-html-2022-05-04-14_59_31.jpg);" class="my-proj-imgs"><div class="h3divs1"><h3 class="h3divsstyle"> Team Project - My Food Planner</h3></div></div>
             </a>
         </article>
         <!-- Second Project Robot Gladiators game-->
@@ -85,13 +92,13 @@
         </article>
 
         <!-- Tribue Page-->
-        <article class="boxes">
+        <article class="boxes" target="_blank">
             <a href="https://codepen.io/Azarill/full/yLYpaPK">
                 <div style="background-image: url(../my-portfolio/assets/images/tribute-page.png)" class="my-proj-imgs"><div class="h3divs"><h3 class="h3divsstyle">Tribute Page</h3></div></div>
             </a>
         </article>
         <!-- Place Holder -->
-        <article class="boxes">
+        <article class="boxes" target="_blank">
             <a href="#">
                 <div  class="my-proj-imgs"><div class="h3divs"><h3 class="h3divsstyle">Place Holder</h3></div></div>
             </a>
@@ -102,29 +109,35 @@
 </section>
     
 <section class="contact-me" id="contact-me">
-    <article class="about-me">
-        <h3> About Me: </h3>
+    <article class="about-me" id="about-me">
+        <h3> About Me </h3>
         <p> Hello everyone, thank you for checking out my Webpage!
-        I a 31 year old Full Stack Web Developer located Austin Texas.
-        I have been passionate about everything computers since i was a child and would love to share that passion with you! </p>
+        I am a 31 year old Full Stack Web Developer located Austin Texas.
+        I have been passionate about everything computers since I was a child and would love to share that passion with you! </p>
     </article>
 
     <div>
         <div class="contact-h3">
             <h3>Reach out to me: </h3>
         </div>
-        <div class="contact-lis">
+        <div class="contact-lis" id="contact-me">
             <ul>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">LinkedIn</a></li>
+                <li><a href="https://github.com/Azariill">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/scott-heier-224a40224/">LinkedIn</a></li>
                 <li><a href="mailto:Heierms@gmail.com">Email</a></li>
-                <li><a href="">My Website</a></li>
+                <li><a href="https://azariill.github.io/my-portfolio/">My Website</a></li>
 
             </ul>
         </div>
     </div>
 </section>
 
-  
+<footer> 
+    <h4>Made By Scott Heier</h4>
+    <p><a href="#">Return to Top</a></p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
