@@ -1,4 +1,8 @@
+// Original SaSS function credited to https://coderwall.com/p/nqxusa by Kushagra Gour // original idea credited to https://codepen.io/sarazond/pen/LYGbwj
 
+//This function create multiple box-shadows based on the amount specificed in stars variable 
+
+// My contribution was adjusting sizes, adding twinkle animation and changing direction and speed
 
 @function multiple-box-shadow ($n){
   $value: '#{random(2000)}px #{random(20000)}px #FFF';
@@ -9,14 +13,17 @@
   @return unquote($value)
 }
 
-$shadows-small:  multiple-box-shadow(1000);
-$shadows-medium: multiple-box-shadow(200);
-$shadows-big:    multiple-box-shadow(50);
+
+
+$shadows-small:  multiple-box-shadow(1200);
+$shadows-medium: multiple-box-shadow(800);
+$shadows-big:    multiple-box-shadow(400);
+
 
 header{
   
   height: 100vh;
-  background: radial-gradient(ellipse at top right , #172429 0%, #000000 100%);
+  background: radial-gradient(ellipse at top right , #0e1d25 -5%, #000000 100%);
   overflow: hidden;
 }
     
@@ -25,55 +32,70 @@ header{
   height: 1px;
   background: transparent;
   box-shadow: $shadows-small;
-  animation			: animStar 50s linear infinite;
+  animation			: animStar 150s linear infinite;
+  border-radius: 25px;
+  
 }
 #stars::after{
-    content: " ";
-    position: absolute;
-    right: 500px;
-    width: 1px;
-    height: 1px;
-    background: transparent;
-    box-shadow: $shadows-small;
-}
-  
-#stars2{
-  width: 2px;
-  height: 2px;
-  background: transparent;
-  box-shadow: $shadows-medium;
-  animation			: animStar 50s linear infinite;
-}
-  #stars2::after{
     content: " ";
     position: absolute;
     right: 500px;
     width: 2px;
     height: 2px;
     background: transparent;
-    box-shadow: $shadows-medium;
+    box-shadow: $shadows-small;
+    animation: twinkle 3s infinite;
 }
-#stars3{
-  width: 3px;
-  height: 3px;
+  
+#stars2{
+  width: 2px;
+  height: 1px;
   background: transparent;
-  box-shadow: $shadows-big;
-  animation			: animStar 100s linear infinite;
-} 
-#stars3::after{
+  box-shadow: $shadows-medium;
+  animation			: animStar 90s linear infinite;
+  border-radius: 25px;
+}
+  #stars2::after{
     content: " ";
     position: absolute;
     right: 500px;
     width: 3px;
     height: 3px;
     background: transparent;
+    box-shadow: $shadows-medium;
+    animation: twinkle 5s infinite;
+}
+#stars3{
+  width: 3px;
+  height: 1px;
+  background: transparent;
+  box-shadow: $shadows-big;
+  animation			: animStar 150s linear infinite;
+  border-radius: 25px;
+} 
+#stars3::after{
+    content: " ";
+    position: absolute;
+    right: 500px;
+    width: 4px;
+    height: 4px;
+    background: transparent;
     box-shadow: $shadows-big;
+    animation: twinkle 6s infinite;
   }
     
 @keyframes animStar{
   from	{
     transform: translateX(0px)}
   to{	
-    transform: translateX(500px)
+    transform: translate(1000px, -1000px)
 }
+}
+
+@keyframes twinkle {
+  0%   {opacity: 90%;}
+  25%  {opacity: 60%;}
+  50%  {opacity: 10%;}
+  75%  {opacity: 35%;}
+  100% {opacity: 75%;}
 }
