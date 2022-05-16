@@ -15,12 +15,12 @@
 
 
 
-$shadows-small:  multiple-box-shadow(5000);
-$shadows-medium: multiple-box-shadow(800);
-$shadows-big:    multiple-box-shadow(400);
+$shadows-small:  multiple-box-shadow(1500);
+$shadows-medium: multiple-box-shadow(1000);
+$shadows-big:    multiple-box-shadow(500);
 
 
-.hero-section{
+body{
   
   height: 100vh;
   background: radial-gradient(ellipse at top right , #0e1d25 -5%, #000000 100%);
@@ -44,7 +44,7 @@ $shadows-big:    multiple-box-shadow(400);
     height: 2px;
     background: transparent;
     box-shadow: $shadows-small;
-    animation: twinkle 3s infinite;
+    animation: twinkle 50s infinite;
 }
   
 #stars2{
@@ -63,7 +63,7 @@ $shadows-big:    multiple-box-shadow(400);
     height: 3px;
     background: transparent;
     box-shadow: $shadows-medium;
-    animation: twinkle 5s infinite;
+    animation: twinkle 25s infinite;
 }
 #stars3{
   width: 3px;
@@ -81,7 +81,7 @@ $shadows-big:    multiple-box-shadow(400);
     height: 4px;
     background: transparent;
     box-shadow: $shadows-big;
-    animation: twinkle 6s infinite;
+    animation: twinkle 15s infinite;
   }
     
 @keyframes animStar{
