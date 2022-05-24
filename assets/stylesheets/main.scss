@@ -15,12 +15,12 @@
 
 
 
-$shadows-small:  multiple-box-shadow(1500);
-$shadows-medium: multiple-box-shadow(1000);
+$shadows-small:  multiple-box-shadow(2500);
+$shadows-medium: multiple-box-shadow(1200);
 $shadows-big:    multiple-box-shadow(500);
 
 
-body{
+.hero-section{
   
   height: 100vh;
   background: radial-gradient(ellipse at top right , #0e1d25 -5%, #000000 100%);
@@ -28,6 +28,9 @@ body{
 }
     
 #stars{
+  position: absolute;
+  left: -200px;
+  top: -500px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -44,10 +47,13 @@ body{
     height: 2px;
     background: transparent;
     box-shadow: $shadows-small;
-    animation: twinkle 50s infinite;
+    animation: twinkle 100s infinite;
 }
   
 #stars2{
+  position: absolute;
+  left: -200px;
+  top: -500px;
   width: 2px;
   height: 1px;
   background: transparent;
@@ -66,9 +72,13 @@ body{
     animation: twinkle 25s infinite;
 }
 #stars3{
-  width: 3px;
-  height: 1px;
+  
   background: transparent;
+  width: 4px;
+  height: 1px;
+  position: absolute;
+  left: -200px;
+  top: -500px;
   box-shadow: $shadows-big;
   animation			: animStar 150s linear infinite;
   border-radius: 25px;
@@ -99,3 +109,69 @@ body{
   75%  {opacity: 35%;}
   100% {opacity: 75%;}
 }
+
+
+#moon{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(128, 128, 128);
+}
+#crater1{
+  position: relative;
+  bottom: -5%;
+  left: 25%;
+  background-color: grey;
+  box-shadow: inset 1px 1px 2px black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+#crater1{
+  position: relative;
+  bottom: -25%;
+  left: 25%;
+  background-color: grey;
+  box-shadow: inset 1px 1px 2px black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+
+#crater1{
+  position: relative;
+  bottom: -15%;
+  left: 25%;
+  background-color: grey;
+  box-shadow: inset 1px 1px 2px black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+#crater2{
+  position: relative;
+  bottom: -15%;
+  left: 25%;
+  background-color: grey;
+  box-shadow: inset 1px 1px 2px black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+#crater3{
+  position: relative;
+  bottom: -15%;
+  left: 25%;
+  background-color: grey;
+  box-shadow: inset 1px 1px 2px black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+
